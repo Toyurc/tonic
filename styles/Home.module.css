@@ -21,7 +21,7 @@
   margin-right: 4rem;
 }
 
-.navLinks > li {
+.navLinks>li {
   list-style: none;
   color: #0a2640;
   font-size: 1.6rem;
@@ -136,6 +136,7 @@
   display: flex;
   align-items: center;
   column-gap: 0.4rem;
+  cursor: pointer;
 }
 
 .serviceExplore span {
@@ -153,11 +154,11 @@
 
 .customers2 {
   composes: customers;
-  padding-top: 4.8rem;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
 }
 
-.customersText {
-}
+.customersText {}
 
 .customersText h3 {
   max-width: 49.3rem;
@@ -233,7 +234,7 @@
   column-gap: 2.4rem;
 }
 
-.arrows > * {
+.arrows>* {
   cursor: pointer;
 }
 
@@ -298,6 +299,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .workLifeText h3 {
@@ -312,7 +314,7 @@
   flex-direction: column;
 }
 
-.workLifeList > div {
+.workLifeList>div {
   display: flex;
   column-gap: 2.4rem;
   border-bottom: 1px solid #c4c4c4;
@@ -392,6 +394,7 @@
   background-size: cover;
   background-position: top;
   border-radius: 12px;
+  padding: 7.2rem;
 }
 
 .newsletterInput {
@@ -429,4 +432,73 @@
 .button {
   background-color: #65e4a3;
   color: #0a2640;
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.rightSection {
+  max-width: 300px;
+}
+
+.rightSection p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #777777;
+}
+
+.footerList h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 32px;
+  text-transform: capitalize;
+  margin: 0;
+  color: #000000;
+}
+
+.footerList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerList ul li {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 32px;
+  color: #777777;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 0.8rem 0;
+}
+
+.hiring {
+  display: flex;
+  column-gap: .8rem;
+}
+
+.hiringSection {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 28px;
+  background: #65E4A3;
+  border-radius: 120px;
+  width: 72px;
+  color: #0A2640;
+  padding: .4rem 1.4rem;
+}
+
+.hang {
+  position: relative;
+}
+
+
+.hangImage {
+  position: absolute;
+  z-index: 3;
+  top: 250px;
+  right: 80px;
 }

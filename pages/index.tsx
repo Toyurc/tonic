@@ -173,12 +173,19 @@ export default function Home() {
       </Container>
       <Container>
         <div className={styles.customers}>
-          <div>
+          <div className={styles.hang}>
             <Image
               src={'/images/human-1.png'}
               alt={'man on call'}
               width={494}
               height={506}
+            />
+            <Image
+              className={styles.hangImage}
+              src={'/images/stats-1.png'}
+              alt={'stats'}
+              width={291}
+              height={388}
             />
           </div>
           <div className={styles.customersText}>
@@ -237,12 +244,19 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div>
+          <div className={styles.hang}>
             <Image
               src={'/images/human-2.png'}
               alt={'woman on call'}
               width={444}
               height={523}
+            />
+            <Image
+              className={styles.hangImage}
+              src={'/images/stats-2.png'}
+              alt={'stats'}
+              width={291}
+              height={388}
             />
           </div>
         </div>
@@ -425,32 +439,34 @@ export default function Home() {
         </div>
         <Button buttonText={'load more'} buttonType={'outline'} buttonSize={'md'} />
       </Container>
-      <Container className={styles.newsletter}>
-        <div className={styles.newsletterInput}>
-          <h1>An enterprise template to ramp up your company website</h1>
-          <div className={styles.inputSection}>
-            <input
-              className={styles.input}
-              placeholder="your email address"
-              type="email"
-            />
-            <Button
-              buttonText={'start now'}
-              buttonType={'outline'}
-              buttonSize={'md'}
-              className={styles.button}
-            />
+      <Container>
+        <div className={styles.newsletter}>
+          <div className={styles.newsletterInput}>
+            <h1>An enterprise template to ramp up your company website</h1>
+            <div className={styles.inputSection}>
+              <input
+                className={styles.input}
+                placeholder="your email address"
+                type="email"
+              />
+              <Button
+                buttonText={'start now'}
+                buttonType={'outline'}
+                buttonSize={'md'}
+                className={styles.button}
+              />
+            </div>
           </div>
         </div>
       </Container>
       <footer>
-        <Container>
-          <div>
+        <Container className={styles.footer}>
+          <div className={styles.rightSection}>
             <Image
               src={'/icons/boldo-logo.svg'}
               alt={'boldo logo'}
-              width={160}
-              height={42}
+              width={156}
+              height={41}
             />
             <p>
               Social media validation business model canvas graphical user interface
@@ -458,7 +474,7 @@ export default function Home() {
             </p>
             <p>All rights reserved.</p>
           </div>
-          <div>
+          <div className={styles.footerList}>
             <h3>landings</h3>
             <ul>
               <li>home</li>
@@ -466,17 +482,17 @@ export default function Home() {
               <li>services</li>
             </ul>
           </div>
-          <div>
+          <div className={styles.footerList}>
             <h3>company</h3>
             <ul>
               <li>home</li>
-              <li>
-                careers <div>hiring!</div>
+              <li className={styles.hiring}>
+                careers <div className={styles.hiringSection}>hiring!</div>
               </li>
               <li>services</li>
             </ul>
           </div>
-          <div>
+          <div className={styles.footerList}>
             <h3>resources</h3>
             <ul>
               <li>blog</li>
