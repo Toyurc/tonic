@@ -6,7 +6,7 @@
 .headerSection {
   padding-top: 5.6rem;
   padding-bottom: 8rem;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .nav {
@@ -21,9 +21,9 @@
   margin-right: 4rem;
 }
 
-.navLinks>li {
+.navLinks > li {
   list-style: none;
-  color: #0A2640;
+  color: #0a2640;
   font-size: 1.6rem;
   line-height: 28px;
   font-weight: 600;
@@ -41,7 +41,6 @@
   display: flex;
   flex-direction: column;
   max-width: 60rem;
-
 }
 
 .headerText h1 {
@@ -82,8 +81,8 @@
   display: grid;
   grid-gap: 2.4rem;
   grid-template-areas:
-    "big big big"
-    "small mid mid";
+    'big big big'
+    'small mid mid';
 }
 
 .marquee {
@@ -92,12 +91,12 @@
 }
 
 .services {
-  background-color: #0A2640;
+  background-color: #0a2640;
   text-align: center;
 }
 
 .services p {
-  color: #F1F1F1;
+  color: #f1f1f1;
   font-weight: 400;
   font-size: 2rem;
   line-height: 32px;
@@ -108,7 +107,7 @@
   font-weight: 400;
   font-size: 4.8rem;
   line-height: 72px;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 80rem;
   margin: 0 auto;
 }
@@ -129,19 +128,19 @@
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .serviceExplore {
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
   display: flex;
   align-items: center;
-  column-gap: .4rem;
+  column-gap: 0.4rem;
 }
 
 .serviceExplore span {
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 2rem;
   line-height: 36px;
@@ -157,7 +156,8 @@
   padding-top: 4.8rem;
 }
 
-.customersText {}
+.customersText {
+}
 
 .customersText h3 {
   max-width: 49.3rem;
@@ -178,7 +178,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  column-gap: .8rem;
+  column-gap: 0.8rem;
   font-weight: 400;
   font-size: 2rem;
   line-height: 32px;
@@ -191,26 +191,26 @@
 .customerList2 li:first-child {
   display: flex;
   align-items: center;
-  column-gap: .8rem;
-  background: #0A2640;
+  column-gap: 0.8rem;
+  background: #0a2640;
   box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
-  padding: .8rem;
-  color: #FFFFFF;
+  padding: 0.8rem;
+  color: #ffffff;
 }
 
 .customerList2 li {
   display: flex;
   align-items: center;
-  column-gap: .8rem;
-  background: #FFFFFF;
+  column-gap: 0.8rem;
+  background: #ffffff;
   box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
-  padding: .8rem;
+  padding: 0.8rem;
 }
 
 .enterprise {
-  background-color: #0A2640;
+  background-color: #0a2640;
 }
 
 .enterpriseText {
@@ -220,7 +220,7 @@
 }
 
 .enterpriseText h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 4.8rem;
   line-height: 72px;
@@ -233,7 +233,7 @@
   column-gap: 2.4rem;
 }
 
-.arrows>* {
+.arrows > * {
   cursor: pointer;
 }
 
@@ -248,7 +248,7 @@
   display: flex;
   flex-direction: column;
   padding: 4rem;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
   border-radius: 12px;
   width: 35rem;
@@ -312,10 +312,10 @@
   flex-direction: column;
 }
 
-.workLifeList>div {
+.workLifeList > div {
   display: flex;
   column-gap: 2.4rem;
-  border-bottom: 1px solid #C4C4C4;
+  border-bottom: 1px solid #c4c4c4;
   padding: 1.6rem 0;
   align-items: center;
 }
@@ -350,7 +350,7 @@
   width: 300px;
   display: flex;
   flex-direction: column;
-  row-gap: .8rem;
+  row-gap: 0.8rem;
   align-items: flex-start;
 }
 
@@ -371,7 +371,7 @@
   font-size: 1.6rem;
   line-height: 28px;
   text-transform: capitalize;
-  color: #0A2640;
+  color: #0a2640;
 }
 
 .blogCardText span {
@@ -406,7 +406,7 @@
   font-weight: 400;
   font-size: 4.8rem;
   line-height: 72px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -418,8 +418,8 @@
 }
 
 .input {
-  background: #FFFFFF;
-  border: 2px solid #FFFFFF;
+  background: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 24rem;
   width: 37rem;
   padding: 1.2rem 3.2rem;
@@ -427,7 +427,6 @@
 }
 
 .button {
-  background-color: #65E4A3;
-  color: #0A2640;
+  background-color: #65e4a3;
+  color: #0a2640;
 }
-

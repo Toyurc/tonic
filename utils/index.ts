@@ -2,4 +2,4 @@
  * @param {string} styles A list of classes to compose together
  */
 export const composeClasses = (...styles: (string | boolean | undefined)[]): string =>
-  styles.filter((item) => item).join(" ");
+  styles.filter((item) => item).join(' ');

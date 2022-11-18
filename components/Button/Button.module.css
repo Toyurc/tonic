@@ -1,21 +1,20 @@
 .button {
-  border: .2rem solid #0A2640;
+  border: 0.2rem solid #0a2640;
   border-radius: 56px;
   cursor: pointer;
   text-transform: capitalize;
   font-family: 'Open Sans';
   font-weight: 700;
-
 }
 
 .outline {
-  color: #0A2640;
-  background-color: #FFFFFF;
+  color: #0a2640;
+  background-color: #ffffff;
 }
 
 .solid {
-  color: #FFFFFF;
-  background-color: #0A2640;
+  color: #ffffff;
+  background-color: #0a2640;
 }
 
 .lg {
@@ -25,7 +24,7 @@
 }
 
 .md {
-  padding: .8rem 4rem;
+  padding: 0.8rem 4rem;
   font-size: 1.6rem;
   line-height: 24px;
 }
